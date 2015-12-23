@@ -232,7 +232,7 @@ private:
 			if (filter->m_NodeArray[i].m_NextFilter)
 			{
 				Clean((Filter *)filter->m_NodeArray[i].m_NextFilter);
-				//XDELETE((Filter*)filter->m_NodeArray[i].m_NextFilter);
+				delete (Filter*)filter->m_NodeArray[i].m_NextFilter;
 			}
 		}
 	}
