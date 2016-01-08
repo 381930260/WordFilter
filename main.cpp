@@ -99,10 +99,10 @@ public:
 			for (int j = i; j < strlen(str); j++)
 			{
 				unsigned char c = str[j];
-				if ((c >= 'A' && c <= 'Z'))
-				{
-					c += 32;
-				}
+				//if ((c >= 'A' && c <= 'Z'))
+				//{
+				//	c += 32;
+				//}
 
 				if (filter->m_NodeArray[c].m_Flag == FilterNode::NODE_IS_NULL)
 				{
@@ -130,10 +130,10 @@ public:
 			for (uint32_t j = i; j < strlen(str); j++)
 			{
 				unsigned char c = str[j];
-				if ((c >= 'A' && c <= 'Z'))
-				{
-					c += 32;
-				}
+				//if ((c >= 'A' && c <= 'Z'))
+				//{
+				//	c += 32;
+				//}
 
 				if (filter->m_NodeArray[c].m_Flag == FilterNode::NODE_IS_NULL)
 				{
@@ -172,10 +172,10 @@ public:
 			for (uint32_t j = i; j < str.size(); j++)
 			{
 				unsigned char c = str[j];
-				if ((c >= 'A' && c <= 'Z'))
-				{
-					c += 32;
-				}
+				//if ((c >= 'A' && c <= 'Z'))
+				//{
+				//	c += 32;
+				//}
 				if (filter->m_NodeArray[c].m_Flag == FilterNode::NODE_IS_NULL)
 				{
 					break;
